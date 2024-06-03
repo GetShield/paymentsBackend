@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "allowJs": true,             // Permite la importación de archivos .js
+    "checkJs": true,             // Opcional: Realiza comprobaciones de tipo en archivos .js
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "lib": ["es2016"],
+    // "moduleDetection": "force"
+  },
+  "include": [
+    "src/**/*.ts",
+    "/**/*.js",
+    "src/**/*.js"                // Incluye archivos .js en la compilación
+  ],
+}
