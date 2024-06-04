@@ -1,5 +1,4 @@
 // models/LinkPayment.js
-// @ts-nocheck
 const mongoose = require('mongoose');
 const crypto = require('crypto');
 require('dotenv').config();

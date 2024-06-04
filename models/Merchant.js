@@ -1,5 +1,4 @@
 // models/Merchant.js
-// @ts-nocheck
 const mongoose = require('mongoose');
 
 const MerchantSchema = new mongoose.Schema({

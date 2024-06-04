@@ -1,5 +1,4 @@
 // models/Transaction.js
-// @ts-nocheck
 const mongoose = require('mongoose');
 
 const TransactionSchema = new mongoose.Schema({

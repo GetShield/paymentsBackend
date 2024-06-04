@@ -1,6 +1,6 @@
 // services/linkPaymentService.js
-// @ts-nocheck
 const LinkPayment = require('../models/LinkPayment');
+
 const getLinkPayments = async () => {
     return await LinkPayment.find();
 };
@@ -43,11 +43,11 @@ const addWalletTriedPayment = async (paymentId, walletString = null, hash = null
         }
         if (hash != null) {
             linkPayment.hash.push(hash)
-            if (statusHash != false) {
+            if(statusHash!=false){
 
                 linkPayment.status = "paid";
-            } else {
-
+            }else{
+                
             }
         }
 
